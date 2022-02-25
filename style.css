@@ -2,11 +2,19 @@
     2: Stilos generales
     2: Cascada según posición en el html */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-*{
+/* */
+ 
+/* .dd{
     margin: 0px;
     padding: 0px;
     top: 0px;
-}
+} */
+/* html{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    display: none;
+} */
 .nav{
     position: static;
     height: 86px;
@@ -113,7 +121,8 @@
     width: 50%;
     height: 52%;
     left: 50%;
-    top: 25%;
+    top: 15%;
+    /* top: 25%; */
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -131,22 +140,28 @@
     position: absolute;
     width: 261px;
     height: 282px;
-    top: 5%;
-    left: 77%;
+    top: 12%;
+    left: 83%;
+    /* top: 5%;
+    left: 77%; */
 }
 .hand{
     position: absolute;
     width: 261px;
     height: 168px;
-    top: 65%;
-    left: 55%;
+    top: 48%;
+    left: 57%;
+    /* top: 65%;
+    left: 55%; */
 }
 .ellipseOrangeSolid{
     position: absolute;
     width: 70px;
     height: 70px;
-    top: 77%;
-    left: 94%;
+    top: 57%;
+    left: 91%;
+    /* top: 77%;
+    left: 94%; */
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -164,7 +179,7 @@
     border: 3px solid #F57728;
 }
 .letsbetech{
-    position: absolute;
+    position: relative;
     top: 20px;
     right: 20px;
 }
